@@ -1,0 +1,27 @@
+h1 {text-allign: center
+width: 300px;
+    text-align: center;
+}
+
+h1 {color: white;}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+button {color: white;}
+button {background-color: deepskyblue;;}
+body {background-color:deepskyblue ;;}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#todo-form {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+ }
+
+#todo-form {border-radius: 10%;}
