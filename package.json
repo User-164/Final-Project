@@ -1,8 +1,17 @@
-const express = require('express');
-const app = express();
-const port = 3000;
+{
+  "name": "code-camp-2024-final-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
 
-app.get('/', (req, res) => res.send('Hello World!');
-app.listen(port, () => {
-  console.log('Server is running at http://localhost:${port}');
-});
